@@ -1,6 +1,6 @@
 public class RewardValue {
 private double cashValue;
-private double milesValue;
+private int milesValue;
 
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
@@ -19,7 +19,7 @@ private double milesValue;
     }
 
 
-    public double getMilesValue() {
+    public int getMilesValue() {
         return milesValue;
     }
 }
